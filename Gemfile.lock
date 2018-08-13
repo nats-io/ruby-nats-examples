@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    eventmachine (1.2.7)
+    nats (0.9.2)
+      eventmachine (~> 1.2, >= 1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nats
+
+BUNDLED WITH
+   1.16.3
