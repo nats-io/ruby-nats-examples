@@ -1,7 +1,3 @@
-[begin connect_options]
-# There is currently no connect timeout as part of the Ruby NATS client API.
-[end connect_options]
-
 [begin reconnect_5mb]
 # There is currently no reconnect pending buffer as part of the Ruby NATS client.
 [end reconnect_5mb]
