@@ -25,3 +25,7 @@
 [begin slow_listener]
 # The Ruby NATS client currently does not have option to customize slow consumer limits per sub.
 [end slow_listener]
+
+[begin servers_added]
+# The Ruby NATS client does not support discovered servers handler right now
+[end servers_added]
