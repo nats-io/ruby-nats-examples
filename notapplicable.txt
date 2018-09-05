@@ -29,3 +29,20 @@
 [begin servers_added]
 # The Ruby NATS client does not support discovered servers handler right now
 [end servers_added]
+
+[begin connection_listener]
+# There is not a single listener for connection events in the Ruby NATS Client.
+# Instead, you can set individual event handlers using:
+
+NATS.on_disconnect do
+end
+
+NATS.on_reconnect do
+end
+
+NATS.on_close do
+end
+
+NATS.on_error do
+end
+[end connection_listener]
