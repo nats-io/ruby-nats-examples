@@ -1,0 +1,27 @@
+[begin connect_options]
+# There is currently no connect timeout as part of the Ruby NATS client API.
+[end connect_options]
+
+[begin reconnect_5mb]
+# There is currently no reconnect pending buffer as part of the Ruby NATS client.
+[end reconnect_5mb]
+
+[begin control_2k]
+# There is no need to customize this in the Ruby NATS client.
+[end control_2k]
+
+[begin drain_sub]
+# There is currently no API to drain a single subscription, the whole connection can be drained though via NATS.drain
+[end drain_sub]
+
+[begin subscribe_sync]
+# The Ruby NATS client subscriptions are all async.
+[end subscribe_sync]
+
+[begin slow_pending_limits]
+# The Ruby NATS client currently does not have option to customize slow consumer limits per sub.
+[end slow_pending_limits]
+
+[begin slow_listener]
+# The Ruby NATS client currently does not have option to customize slow consumer limits per sub.
+[end slow_listener]
